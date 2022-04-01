@@ -5,6 +5,7 @@ LABEL description="A python image for the development of a application"
 LABEL python version="3.11"
 LABEL image version="v0.1"
 
+
 COPY requirements.txt .
 
 RUN apk --no-cache update \
