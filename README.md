@@ -1,5 +1,7 @@
 # A container image for run python 3.11
 
+[![BUILD IMAGE PYTHON 3.11](https://github.com/fabianoflorentino/python/actions/workflows/build.yml/badge.svg)](https://github.com/fabianoflorentino/python/actions/workflows/build.yml)
+
 ## **Usage**
 
 | **Variable** | **Description** |
