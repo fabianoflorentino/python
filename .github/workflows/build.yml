@@ -11,7 +11,7 @@ on:
       - 'docs/**'
       - '.github/**'
 
-jobs:  
+jobs:
   build:
     environment: DOCKERHUB
     name: Build and Push to Docker Hub
@@ -30,7 +30,7 @@ jobs:
       - name: Build Image (Python 3.11)
         run: |
           docker build --no-cache --rm -t $GITHUB_REPOSITORY:3.11 -f ./Dockerfile .
-      
+
       # Push the image to Docker Hub (Python 3.11)
       - name: Push Version
         run: docker push $GITHUB_REPOSITORY:3.11
