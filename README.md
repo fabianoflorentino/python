@@ -11,8 +11,8 @@
 **[./requirements.txt](./requirements.txt)**
 
 ```txt
-pylint==2.13.4
-pep8==1.7.1
+pylint
+pep8
 ```
 
 ### **Local Usage**

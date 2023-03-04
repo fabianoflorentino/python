@@ -1,4 +1,4 @@
-FROM python:3.11-rc-alpine3.15
+FROM python:alpine3.17
 
 LABEL maintainer="Fabiano Santos Florentino"
 LABEL description="A python image for the development of a application"
@@ -17,4 +17,4 @@ RUN apk --no-cache update \
 
 USER python
 
-ENTRYPOINT [ "sh" ]
+ENTRYPOINT [ "python" ]
